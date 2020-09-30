@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="685.0" maxWidth="450.0" minHeight="526.0" minWidth="450.0" pickOnBounds="false" prefHeight="605.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" layoutX="25.0" layoutY="40.0" maxHeight="525.0" maxWidth="400.0" minHeight="378.0" minWidth="400.0" prefHeight="456.0" prefWidth="400.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="500.0" prefWidth="200.0" spacing="5.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="105.0" layoutY="370.0" text="Id:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mapCoordinatesLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="37.0" layoutY="48.0" text="Coordinates:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="60.0" text="x:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="73.0" text="y:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mapStudentsCountLabel" alignment="CENTER" contentDisplay="CENTER" text="Students count:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mapExpelledStudentsLabel" alignment="CENTER" contentDisplay="CENTER" text="Expelled students:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mapAverageMarkLabel" alignment="CENTER" contentDisplay="CENTER" text="Average mark:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mapSemesterLabel" alignment="CENTER" contentDisplay="CENTER" text="Semester:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mapPersonLabel" alignment="CENTER" contentDisplay="CENTER" text="Person:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mapHeightLabel" alignment="CENTER" contentDisplay="CENTER" text="height:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mapWeightLabel" alignment="CENTER" contentDisplay="CENTER" text="weight:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mapLocationLabel" alignment="CENTER" contentDisplay="CENTER" text="Location:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="x:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="y:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="z:" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="475.0" prefWidth="200.0" spacing="5.0">
+               <children>
+                  <HBox layoutX="10.0" layoutY="352.0" prefHeight="15.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Text fx:id="from" strokeType="OUTSIDE" strokeWidth="0.0" text="from" />
+                        <TextField fx:id="idFromfield" />
+                        <Text fx:id="to1" layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to" />
+                        <TextField fx:id="idToField" />
+                     </children>
+                  </HBox>
+                  <Label alignment="CENTER" contentDisplay="CENTER" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="15.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Text fx:id="from1" strokeType="OUTSIDE" strokeWidth="0.0" text="from" />
+                        <TextField fx:id="xFromField" />
+                        <Text fx:id="to2" layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to" />
+                        <TextField fx:id="xToField" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="110.0" prefHeight="15.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Text fx:id="from2" strokeType="OUTSIDE" strokeWidth="0.0" text="from" />
+                        <TextField fx:id="yFromField" />
+                        <Text fx:id="to3" layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to" />
+                        <TextField fx:id="yToField" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="370.0" prefHeight="15.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Text fx:id="from3" strokeType="OUTSIDE" strokeWidth="0.0" text="from" />
+                        <TextField fx:id="studentsCountFromField" />
+                        <Text fx:id="to4" layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to" />
+                        <TextField fx:id="studentsCountToField" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="155.0" prefHeight="15.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Text fx:id="from4" strokeType="OUTSIDE" strokeWidth="0.0" text="from" />
+                        <TextField fx:id="expelledStudentsFromField" />
+                        <Text fx:id="to5" layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to" />
+                        <TextField fx:id="expelledStudentsToField" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="385.0" prefHeight="15.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Text fx:id="from5" strokeType="OUTSIDE" strokeWidth="0.0" text="from" />
+                        <TextField fx:id="averageMarkFromField" />
+                        <Text fx:id="to6" layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to" />
+                        <TextField fx:id="averageMarkToField" />
+                     </children>
+                  </HBox>
+                  <ComboBox fx:id="semesterBox" layoutX="35.0" layoutY="325.0" prefWidth="200.0" promptText="PARK" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="175.0" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <HBox layoutX="10.0" layoutY="415.0" prefHeight="15.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Text fx:id="from6" strokeType="OUTSIDE" strokeWidth="0.0" text="from" />
+                        <TextField fx:id="heightFromField" />
+                        <Text fx:id="to7" layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to" />
+                        <TextField fx:id="heightToField" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="435.0" prefHeight="15.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Text fx:id="from7" strokeType="OUTSIDE" strokeWidth="0.0" text="from" />
+                        <TextField fx:id="weightFromfield" />
+                        <Text fx:id="to8" layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to" />
+                        <TextField fx:id="weightToField" />
+                     </children>
+                  </HBox>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="314.0" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <HBox layoutX="10.0" layoutY="434.0" prefHeight="15.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Text fx:id="from8" strokeType="OUTSIDE" strokeWidth="0.0" text="from" />
+                        <TextField fx:id="xLocationFromField" />
+                        <Text fx:id="to9" layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to" />
+                        <TextField fx:id="xLocationToField" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="449.0" prefHeight="15.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Text fx:id="from9" strokeType="OUTSIDE" strokeWidth="0.0" text="from" />
+                        <TextField fx:id="yLocationFromField" />
+                        <Text fx:id="to10" layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to" />
+                        <TextField fx:id="yLocationToField" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="464.0" prefHeight="15.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Text fx:id="from10" strokeType="OUTSIDE" strokeWidth="0.0" text="from" />
+                        <TextField fx:id="zLocationFromField" />
+                        <Text fx:id="to" layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to" />
+                        <TextField fx:id="zLocationToField" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <CheckBox fx:id="elementsCheckBox" layoutX="232.0" layoutY="505.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="200.0" text="Show only my elements" />
+      <Button fx:id="applyButton" layoutX="292.0" layoutY="544.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" text="Apply" />
+      <Button fx:id="clearButton" layoutX="93.0" layoutY="544.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" text="Clear filter" />
+   </children>
+</AnchorPane>
